@@ -22,11 +22,11 @@ function appendKitten(name) {
   return newArray
 }
 
-
 function prependKitten(name) {
   kittens.splice(0, 0, name)
   return kittens
 }
+
 
 
 
