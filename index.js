@@ -33,6 +33,11 @@ function removeLastKitten(name) {
   return newArray
 }
 
+function removeFirstKitten(name) {
+  const newArray = kittens.slice(1, 4)
+  return newArray
+}
+
 
 
 
