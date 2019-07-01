@@ -24,8 +24,11 @@ function appendKitten(name) {
 
 
 function prependKitten(name) {
-  kittens.splice(0, 0, name)
+  const newArray =kittens.splice(0, 0, name)
+  return newArray
 }
+
+
 
 
 
