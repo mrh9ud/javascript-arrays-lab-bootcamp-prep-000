@@ -26,10 +26,12 @@ function prependKitten(name) {
   const newArray = (kittens.slice(0,4))
   newArray.unshift(name)
   return newArray
-  
 }
 
-
+function removeLastKitten(name) {
+  const newArray = kittens.slice(0, 2)
+  return newArray
+}
 
 
 
