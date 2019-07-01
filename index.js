@@ -25,7 +25,7 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   const newArray =kittens.splice(0, 0, name)
-  return newArray
+  return kittens
 }
 
 
